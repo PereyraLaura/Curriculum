@@ -7,6 +7,10 @@
     background-color: #e8d7fc;
 }
 
+p {
+    max-width: 1920px;
+}
+
 h3 {
     color: #9e3de3;
     font-size: 25px;
@@ -14,8 +18,9 @@ h3 {
 
 .botonera {
     width: 100%;
-    height: 40px;
+    height: 60px;
     background-color: #e0b5ff;
+    text-align: center;
 }
 
 nav ul {
@@ -28,9 +33,8 @@ nav ul {
 .botonera a {
     text-decoration: none;
     color: #000;
+    margin: 1220px 8px 0px 8px;
     padding: 10px 20px;
-    /*border: 1px solid black;*/
-    border
 }
 
 .botonera a:hover {
@@ -43,49 +47,59 @@ nav ul {
     color: #fff;
 }
 
-
-
 nav ul li {
     display: inline;
 }
 
 #cabecera {
     width: 100%;
-    height: 400px;
-    background-image: url("images/header.png");
-    background-repeat: no-repeat;
+    height: 250px;
     background-color: #9e3de3;
+}
+
+#cabecera h1 {
+    text-align: center;
+}
+
+#cabecera h3 {
+    text-indent: 1000px;
 }
 
 
 .main {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
 }
 
 .caja1 {
-    margin: 10px;
     padding: 10px;
+    max-width: 1220px;
+}
+
+.caja1 h3 {
+    margin-bottom: 10px;
 }
 
 .caja2 {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
 }
 
 .caja3 {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
 }
 
 .caja4 {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
 }
 
 .caja5 {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    max-width: 1220px;
+}
+
+.imagenanimacion {
+    margin-top: 20px;
+    padding-top: 25px;
+    border-top: 9px dotted white;
 }
 
 aside {
@@ -93,6 +107,7 @@ aside {
 }
 
 footer {
+    height: 40px;
     background-color: #9e3de3;
     text-align: center;
     color: white;
