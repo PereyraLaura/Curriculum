@@ -15,6 +15,20 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+}
+
+/*@font-face{
+    font-family: 'SitkaB';
+    src: url(fonts/SitkaB.ttf) format('truetype')
+    font-weight: normal;
+    font-style: normal;
+}*/
+
 .botonera {
     width: 100%;
     height: 37px;
@@ -64,7 +78,6 @@ nav ul li {
     text-indent: 1000px;
 }
 
-
 .main {
     padding: 20px;
     background-color: #e8d7fc;
@@ -107,9 +120,11 @@ aside {
 }
 
 footer {
-    height: 40px;
+    height: 30px;
     background-color: #9e3de3;
     text-align: center;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
