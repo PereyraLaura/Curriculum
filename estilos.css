@@ -6,20 +6,35 @@
     padding: 0px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     max-width: 1920px;
 }
 
+h1 {
+    color: #ffffff;
+    font-size: 300 px;
+}
+
+h2 {
+    color: #e8d7fd;
+    text-align: center;
+    font-size: 250 px;
+}
+
 h3 {
     color: #9e3de3;
-    font-size: 25px;
+    font-size: 25 px;
 }
 
 h4 {
-        font-family: "PT Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*@font-face{
@@ -45,7 +60,7 @@ nav ul {
 
 .botonera a {
     text-decoration: none;
-    color: #000;
+    color: #9e3de3;
     margin: 1220px 8px 0px 8px;
     padding: 10px 20px;
 }
@@ -81,15 +96,42 @@ nav ul li {
 .main {
     padding: 20px;
     background-color: #e8d7fc;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoprofile {
+    border-radius: 15px;
+    margin-right: 25px; 
 }
 
 .caja1 {
+    width: 1200 px;
+    height: 200 px;
     padding: 10px;
     max-width: 1220px;
+    display: flex;
+    border-radius: 15 px;
 }
 
 .caja1 h3 {
     margin-bottom: 10px;
+}
+
+.FlexboxA {
+    display: flex;
+}
+
+.FlexboxA div {
+    width: 500px;
+}
+
+.FlexboxB {
+    display: flex;
+}
+
+.FlexboxB div {
+    width: 500px;
 }
 
 .caja2 {
@@ -113,14 +155,11 @@ nav ul li {
     margin-top: 20px;
     padding-top: 25px;
     border-top: 9px dotted white;
-}
-
-aside {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
-    height: 30px;
     background-color: #9e3de3;
     text-align: center;
     color: white;
@@ -128,135 +167,3 @@ footer {
     padding-bottom: 10px;
 }
 
-=======
-@charset "utf-8";
-/* CSS Document */
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-p {
-    max-width: 1920px;
-}
-
-h3 {
-    color: #9e3de3;
-    font-size: 25px;
-}
-
-h4 {
-        font-family: "PT Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 20px;
-}
-
-/*@font-face{
-    font-family: 'SitkaB';
-    src: url(fonts/SitkaB.ttf) format('truetype')
-    font-weight: normal;
-    font-style: normal;
-}*/
-
-.botonera {
-    width: 100%;
-    height: 37px;
-    background-color: #e0b5ff;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding-left: 20px;
-    padding-right: 0px;
-    padding-top: 10px;
-}
-
-.botonera a {
-    text-decoration: none;
-    color: #000;
-    margin: 1220px 8px 0px 8px;
-    padding: 10px 20px;
-}
-
-.botonera a:hover {
-    color: #fff;
-    background-color: #000;
-}
-
-.botonera a:active {
-    background-color: #999;
-    color: #fff;
-}
-
-nav ul li {
-    display: inline;
-}
-
-#cabecera {
-    width: 100%;
-    height: 250px;
-    background-color: #9e3de3;
-}
-
-#cabecera h1 {
-    text-align: center;
-}
-
-#cabecera h3 {
-    text-indent: 1000px;
-}
-
-.main {
-    padding: 20px;
-    background-color: #e8d7fc;
-}
-
-.caja1 {
-    padding: 10px;
-    max-width: 1220px;
-}
-
-.caja1 h3 {
-    margin-bottom: 10px;
-}
-
-.caja2 {
-    margin: 20px;
-}
-
-.caja3 {
-    margin: 20px;
-}
-
-.caja4 {
-    margin: 20px;
-}
-
-.caja5 {
-    margin: 20px;
-    max-width: 1220px;
-}
-
-.imagenanimacion {
-    margin-top: 20px;
-    padding-top: 25px;
-    border-top: 9px dotted white;
-}
-
-aside {
-    text-align: center;
-}
-
-footer {
-    height: 30px;
-    background-color: #9e3de3;
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
->>>>>>> e897164e8c9114abc1139dee8ddb97aebc097393
