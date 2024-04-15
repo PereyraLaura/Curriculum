@@ -13,7 +13,7 @@ body {
 
 p {
     max-width: 1920px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -109,7 +109,7 @@ nav ul li {
 }
 
 .main {
-    padding: 30px;
+    padding: 30px 90px;
     background-color: #e8d7fc;
     display: flex;
     flex-direction: row;
@@ -128,7 +128,7 @@ nav ul li {
 .caja1 {
     height: 200px;
     padding: 10px;
-    max-width: 1140px;
+    max-width: 800px;
     display: flex;
 }
 
@@ -180,7 +180,7 @@ nav ul li {
 .caja5 {
     margin: 20px;
     max-width: 1220px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
