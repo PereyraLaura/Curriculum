@@ -11,4 +11,4 @@ Los colores empleados ademas de negro para los textos y blanco para algunas de l
 El programa de edición de código empleado para este trabajo fue Visual Studio Code.
 La medida de pantalla de la computadora de mi hogar, en la que se trabajo fue de 1920 x 1980
 
-Link a Figma: https://github.com/PereyraLaura/Portfolio
+
